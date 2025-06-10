@@ -1,0 +1,12 @@
+trie = Trie()
+output = []
+
+output.append(None)                   # Trie()
+output.append(trie.insert("apple"))   # insert("apple")
+output.append(trie.search("apple"))   # search("apple") → True
+output.append(trie.search("app"))     # search("app") → False
+output.append(trie.startsWith("app")) # startsWith("app") → True
+output.append(trie.insert("app"))     # insert("app")
+output.append(trie.search("app"))     # search("app") → True
+
+print(output)
